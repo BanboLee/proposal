@@ -24,7 +24,7 @@ button.addEventListener("click", function () {
 function progressInterva() {
   if (count == 100 && percentWidth == 100) {
     clearInterval(progressLoad);
-    percent.textContent = "浪漫加载完成, 出发!!!";
+    percent.textContent = "爱意已加载, 冲!!!";
     percent.style.letterSpacing = "1px";
     textBox.style.transform = "scale(1.3)";
     heartItem3.style.animation = "1s heartScale forwards";
@@ -46,7 +46,7 @@ function progressInterva() {
       button.style.height = "40px";
     }, 2000);
     setTimeout(() => {
-      textBtn.textContent = "点我!";
+      textBtn.textContent = "点我充爱!";
       textBtn.style.color = "#fff";
     }, 2500);
     setTimeout(() => {
